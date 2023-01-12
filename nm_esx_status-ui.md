@@ -44,7 +44,8 @@ es_extended & esx_status
 
 > Is my settings automatically saved?
 
-	No - on every page in the UI you got the Save-button which will save the settings to the localStorage. (Bar settings, Global Settings, Individual Settings)
+	No - on every page in the UI you got the Save-button which will save the settings to the localStorage. 
+	(Bar settings, Global Settings, Individual Settings)
 
 >  I found a bug - what do I do?
 
