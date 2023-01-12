@@ -14,11 +14,11 @@ es_extended & esx_status
 1. Make sure to export esx_status GetStatusData - Minimal could be true
 
 	Example on export in esx_status (Client side):
-	<code>
+	```lua
 	exports('getAll', function()
 		return GetStatusData(true)
 	end)
-	</code>
+	```
 	Add this export to the config (Config.esx_status_export)
 ---
 
