@@ -19,7 +19,11 @@ es_extended & esx_status
 		return GetStatusData(true)
 	end)
 	```
-	Add this export to the config (Config.esx_status_export)
+	Add this export to the config-file in nm_esx_status-ui (Config.esx_status_export)
+
+	```lua
+	Config.esx_status_export = "getAll"
+	```
 ---
 
 2. If having more statuses than default:
