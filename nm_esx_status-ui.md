@@ -67,4 +67,8 @@ es_extended & esx_status
 
 ## Images
 ![alt text](https://cdn.discordapp.com/attachments/1063025092663185429/1063025144991326288/diff_style1.jpg)
-
+![alt text](https://cdn.discordapp.com/attachments/1063025092663185429/1063025145192665098/diff_style2.jpg)
+![alt text](https://cdn.discordapp.com/attachments/1063025092663185429/1063025145742106664/global_icons_settings.jpg)
+![alt text](https://cdn.discordapp.com/attachments/1063025092663185429/1063025146006360094/individual_icons_settings.jpg)
+![alt text](https://cdn.discordapp.com/attachments/1063025092663185429/1063025146245431296/status_bar_settings.jpg)
+![alt text](https://cdn.discordapp.com/attachments/1063025092663185429/1063025146551607326/temporary.jpg)
