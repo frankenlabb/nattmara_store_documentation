@@ -16,7 +16,7 @@ es_extended & esx_status
 	Example on export in esx_status (Client side):
 	```lua
 	exports('getAll', function()
-		return GetStatusData(true)
+	  return GetStatusData(true)
 	end)
 	```
 	Add this export to the config-file in nm_esx_status-ui (Config.esx_status_export)
