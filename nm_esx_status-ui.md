@@ -1,0 +1,62 @@
+# Nattmara ES Extended Status User Interface
+### nm-esx_status-ui
+---
+
+## About
+Alternative approaches to present statuses from esx_status.
+Built with lua, vite + vuetify 3
+
+## Dependencies
+es_extended & esx_status
+
+## User Todo:
+
+1. Make sure to export esx_status GetStatusData - Minimal could be true
+
+	Example on export in esx_status (Client side):
+
+	<code>
+	exports('getAll', function()
+		return GetStatusData(true)
+	end)
+	</code>
+
+	Add this export to the config (Config.esx_status_export)
+---
+
+2. If having more statuses than default:
+- Make sure to add Icon in Config.lua
+- Make sure to add to Locales.lua ["status"]-keys
+
+3. Make sure to have an es_extended version where you are able to use shared_script '@es_extended/imports.lua'
+
+## FAQ
+ > How do I open the configuration?
+
+	/uiconfig command
+
+
+> Can i reset the UI?
+	
+	You can use /uireset to reload the UI and fetch data from your storage once again
+
+> Where is the settings saved?
+
+	 On client localStorage, which means it would be saved until they clear cache
+
+> Is my settings automatically saved?
+
+	No - on every page in the UI you got the Save-button which will save the settings to the localStorage. (Bar settings, Global Settings, Individual Settings)
+
+>  I found a bug - what do I do?
+
+	Make sure to declare it in official Nattmara Store Discord https://discord.gg/644Ha7jM
+
+	If it's a bug, we will fix it.
+
+> Will there be updates for the script?
+	
+	Bugs will always be prioritized and fixed.
+	You can always check the package roadmap at Nattmara Store Official discord (https://discord.gg/644Ha7jM) if there is any else planned to be updated for the script.
+
+	
