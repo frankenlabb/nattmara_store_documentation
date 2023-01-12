@@ -63,8 +63,10 @@ es_extended & esx_status
 	You can always check the package roadmap at Nattmara Store Official discord (https://discord.gg/644Ha7jM) 
 	if there is any else planned to be updated for the script.
 
-## Video
-![Watch the video](https://www.youtube.com/watch?v=wK8PJ6cQlzA)
+## Showcase Video
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=wK8PJ6cQlzA
+" target="_blank"><img src="http://img.youtube.com/vi/wK8PJ6cQlzA/0.jpg" 
+alt="Showcase Video" width="240" height="180" border="10" /></a>
 
 ## Images
 ![alt text](https://cdn.discordapp.com/attachments/1063025092663185429/1063025144991326288/diff_style1.jpg)
