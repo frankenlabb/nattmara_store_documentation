@@ -1,2 +1,2 @@
 # nattmara_store_documentation
-Docuentation for Nattmara Store
+Documentation for scripts @ Nattmara Store
