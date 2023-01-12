@@ -64,7 +64,7 @@ es_extended & esx_status
 	if there is any else planned to be updated for the script.
 
 ## Video
-[![Watch the video](https://www.youtube.com/watch?v=wK8PJ6cQlzA)
+![Watch the video](https://www.youtube.com/watch?v=wK8PJ6cQlzA)
 
 ## Images
 ![alt text](https://cdn.discordapp.com/attachments/1063025092663185429/1063025144991326288/diff_style1.jpg)
