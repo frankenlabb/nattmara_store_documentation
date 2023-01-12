@@ -14,13 +14,11 @@ es_extended & esx_status
 1. Make sure to export esx_status GetStatusData - Minimal could be true
 
 	Example on export in esx_status (Client side):
-
 	<code>
 	exports('getAll', function()
 		return GetStatusData(true)
 	end)
 	</code>
-
 	Add this export to the config (Config.esx_status_export)
 ---
 
@@ -57,6 +55,7 @@ es_extended & esx_status
 > Will there be updates for the script?
 	
 	Bugs will always be prioritized and fixed.
-	You can always check the package roadmap at Nattmara Store Official discord (https://discord.gg/644Ha7jM) if there is any else planned to be updated for the script.
+	You can always check the package roadmap at Nattmara Store Official discord (https://discord.gg/644Ha7jM) 
+	if there is any else planned to be updated for the script.
 
 	
