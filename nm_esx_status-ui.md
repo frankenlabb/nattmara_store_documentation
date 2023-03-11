@@ -8,7 +8,7 @@ Built with lua, vite + vuetify 3
 
 ## Dependencies
 ESX & ESX_STATUS
-This script is built for [I'm an inline-style link with title](https://github.com/esx-framework "ESX Framework")
+This script is built for [ESX Framework, ESX Legacy](https://github.com/esx-framework "ESX Framework")
 If not using the official ESX Framework version we can not guarantee that the script will work for you.
 
 ## User Todo:
@@ -27,7 +27,7 @@ If not using the official ESX Framework version we can not guarantee that the sc
 ---
 
 2. If having more statuses than default:
-- Make sure to add Icon in Config.lua. Make sure to use the MDI Icons (https://pictogrammers.com/library/mdi/)
+- Make sure to add Icon in Config.lua. Make sure to use the [MDI Icons](https://pictogrammers.com/library/mdi/, "MDI Icons")
 - Make sure to add to Locales.lua ["status"]-keys
 
 
