@@ -8,6 +8,7 @@ Built with lua, vite + vuetify 3
 
 ## Dependencies
 ESX & ESX_STATUS
+
 This script is built for [ESX Framework, ESX Legacy](https://github.com/esx-framework "ESX Framework")
 If not using the official ESX Framework version we can not guarantee that the script will work for you.
 
