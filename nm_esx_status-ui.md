@@ -3,44 +3,46 @@
 ---
 
 ## About
-Alternative approaches to present statuses from esx_status.
+Alternative approaches to present statuses from esx_status script.
 Built with lua, vite + vuetify 3
 
 ## Dependencies
-es_extended & esx_status
+ESX & ESX_STATUS
+This script is built for ESX Framework. 
+If not using the official ESX Framework version we can not guarantee that the script will work for you.
 
 ## User Todo:
 
 1. Make sure to export esx_status GetStatusData - Minimal could be true
 
 	Example on export in esx_status (Client side):
-	```lua
-	exports('getAll', function()
-	  return GetStatusData(true)
-	end)
-	```
-	Add this export to the config-file in nm_esx_status-ui (Config.esx_status_export)
 
-	```lua
-	Config.esx_status_export = "getAll"
-	```
+	<code>
+	exports('getAll', function()
+		return GetStatusData(true)
+	end)
+	</code>
+
+	Add this export to the config in nm-esx_status-ui (Config.esx_status_export)
 ---
 
 2. If having more statuses than default:
-- Make sure to add Icon in Config.lua
+- Make sure to add Icon in Config.lua. Make sure to use the MDI Icons (https://pictogrammers.com/library/mdi/)
 - Make sure to add to Locales.lua ["status"]-keys
 
-3. Make sure to have an es_extended version where you are able to use shared_script '@es_extended/imports.lua'
 
 ## FAQ
  > How do I open the configuration?
 
 	/uiconfig command
 
-
 > Can i reset the UI?
 	
 	You can use /uireset to reload the UI and fetch data from your storage once again
+
+> Can i clear the UI settings?
+
+	Yes, use /uiclear. This will clear the storage and reset all the settings to default.
 
 > Where is the settings saved?
 
@@ -48,8 +50,7 @@ es_extended & esx_status
 
 > Is my settings automatically saved?
 
-	No - on every page in the UI you got the Save-button which will save the settings to the localStorage. 
-	(Bar settings, Global Settings, Individual Settings)
+	No - on every page in the UI you got the Save-button which will save the settings to the localStorage. (Bar settings, Global Settings, Individual Settings)
 
 >  I found a bug - what do I do?
 
@@ -60,8 +61,7 @@ es_extended & esx_status
 > Will there be updates for the script?
 	
 	Bugs will always be prioritized and fixed.
-	You can always check the package roadmap at Nattmara Store Official discord (https://discord.gg/644Ha7jM) 
-	if there is any else planned to be updated for the script.
+	You can always check the package roadmap at Nattmara Store Official discord (https://discord.gg/644Ha7jM) if there is any else planned to be updated for the script.
 
 ## Showcase Video
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=wK8PJ6cQlzA
