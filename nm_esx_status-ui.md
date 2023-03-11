@@ -17,11 +17,11 @@ If not using the official ESX Framework version we can not guarantee that the sc
 
 	Example on export in esx_status (Client side):
 
-	<code>
+	```lua
 	exports('getAll', function()
 		return GetStatusData(true)
 	end)
-	</code>
+	```
 
 	Add this export to the config in nm-esx_status-ui (Config.esx_status_export)
 ---
